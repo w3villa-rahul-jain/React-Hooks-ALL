@@ -7,21 +7,23 @@ import './App.css';
 // import { ThemeProvider } from './Component/Store'
 // import UseRefHook from './Component/UseRefHook';
 // import UseRefHookTwo from './Component/UseRefHookTwo';
-import UseCallbackHook from './Component/UseCallbackHook';
-import UseMemoHook from './Component/UseMemoHook';
-
-
+// import UseCallbackHook from './Component/UseCallbackHook';
+// import UseMemoHook from './Component/UseMemoHook';
+// import UseIdHook from './Component/UseIdHook';
+// import CustomHook from './Component/CustomHook';
+import CustomHookTwo from './Component/CustomHookTwo';
 
 function App() {
 
   return (
     <div className="App">
       <h1>React Hooks</h1>
-      <UseMemoHook />
+      <CustomHookTwo />
       
       
       
-      
+      {/* <UseIdHook /> */}
+      {/* <UseMemoHook /> */}
       {/* <UseRefHook /> */}
       {/* <UseCallbackHook /> */}
       {/* <ThemeProvider>

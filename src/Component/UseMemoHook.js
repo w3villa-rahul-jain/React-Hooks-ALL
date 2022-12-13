@@ -25,13 +25,19 @@ export default UseMemoHook;
 
 
 const Child = () =>{
+    const [count, setCount] = useState(0);
     useEffect(()=>{
         console.log("Child Render");
     })
 
+    function ChangeText(){
+            setCount(count+1);
+    }
+
     return (
         <div>
             <h1>This is child component</h1>
+            <button onClick={ChangeText}>Click me</button>
         </div>
     )
 }
